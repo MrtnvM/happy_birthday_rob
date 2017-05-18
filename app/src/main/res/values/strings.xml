@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Happy Birthday, Rob!</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rob">Rob</string>
+    <string name="russian_big_rob">Big Russian Rob</string>
+    <string name="about_kuyan">О куяне</string>
+    <string name="robogalery">Робогалерея</string>
+    <string name="robohype">Робохайп</string>
+    <string name="happy_birthday">C Днем Рождения, Роб!</string>
+</resources>
