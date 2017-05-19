@@ -17,7 +17,7 @@ import android.widget.VideoView;
 import com.github.florent37.viewanimator.ViewAnimator;
 
 import ru.mrtnv.max.happybirthdayrob.ui.AboutKuyanFragment;
-import ru.mrtnv.max.happybirthdayrob.ui.RoboGalleryFragment;
+import ru.mrtnv.max.happybirthdayrob.ui.robogramm.RoboGalleryFragment;
 import ru.mrtnv.max.happybirthdayrob.ui.robohype.RoboHypeFragment;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

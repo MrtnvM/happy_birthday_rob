@@ -2,9 +2,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/graffiti_city_2"
     tools:context=".ui.KuyanFragment">
 
+    <ImageView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
 
     <ImageView
         android:id="@+id/rob"
@@ -22,7 +26,8 @@
         android:layout_height="60dp"
         android:layout_marginTop="0dp"
         android:alpha="0"
-        android:src="@drawable/glasses" />
+        android:src="@drawable/glasses"
+        tools:text="text"/>
 
     <TextView
         android:id="@+id/big_russian_rob"

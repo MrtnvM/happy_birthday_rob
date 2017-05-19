@@ -9,8 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.github.florent37.viewanimator.ViewAnimator;
 
 import ru.mrtnv.max.happybirthdayrob.R;
@@ -44,6 +46,9 @@ public class AboutKuyanFragment extends Fragment {
         rob = (ImageView) view.findViewById(R.id.rob);
         glasses = (ImageView) view.findViewById(R.id.glasses);
         bigRussianRob = (TextView) view.findViewById(R.id.big_russian_rob);
+
+        ImageView c = (ImageView)view.findViewById(R.id.container);
+        Glide.with(getActivity()).load(R.drawable.graffiti_city_2).into(c);
 
         return view;
     }
