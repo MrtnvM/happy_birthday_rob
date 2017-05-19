@@ -21,6 +21,8 @@ import ru.mrtnv.max.happybirthdayrob.R;
 
 public class AboutKuyanFragment extends Fragment {
 
+    public static final String TAG = "AboutKuyanFragment";
+
     ImageView rob;
     ImageView glasses;
     TextView bigRussianRob;
@@ -58,8 +60,8 @@ public class AboutKuyanFragment extends Fragment {
                         ViewAnimator
                                 .animate(rob)
                                 .alpha(1)
-                                .startDelay(100)
-                                .duration(500)
+                                .startDelay(200)
+                                .duration(2000)
 
                                 .thenAnimate(rob)
                                 .waitForHeight()
@@ -88,7 +90,7 @@ public class AboutKuyanFragment extends Fragment {
                                 .thenAnimate(bigRussianRob)
                                 .pulse()
                                 .repeatCount(1000)
-                                .duration(1000)
+                                .duration(700)
                                 .rotation(-0.25f)
                                 .repeatMode(ValueAnimator.REVERSE)
 
